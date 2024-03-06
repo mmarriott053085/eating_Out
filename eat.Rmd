@@ -43,6 +43,18 @@ mydata <- na.omit(mydata)
 ```
 
 
+# Plots
+
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
+
+ From the previous data, we can see the white race has a higher frequency of eating out than blacks and other races. However, the black race has a lower frequency for not eating out, when compared to whites and the other races. The other races represented in the graph had a median statistical rate when compared to the white and black races.
+
+
+
 
 
 
