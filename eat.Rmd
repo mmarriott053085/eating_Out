@@ -65,3 +65,19 @@ colPerc(table1)
 ```
 
 The white race has a 82.83% rate of eating out. The black race has a 68.75% rate of eating out. And the other races share a 77.78%  rate of eating out.
+
+# Inferential 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+Based on the previous data, we noticed a statistical difference between each data set.
+
+```{r}
+fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
+```
+
+When the Fisher XY test was first run, it resulted in a low p-value between the white and black races. On the second test run, after adding the print equals true value, the values were significantly higher.
