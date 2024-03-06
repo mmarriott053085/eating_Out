@@ -81,3 +81,9 @@ fisherXY(mydata$race,mydata$eatout,printAll = TRUE)
 ```
 
 When the Fisher XY test was first run, it resulted in a low p-value between the white and black races. On the second test run, after adding the print equals true value, the values were significantly higher.
+
+
+# Discussion & Conclusion
+
+
+In conclusion, the data suggests there is a statistical difference in the frequency between the white and black races in eating out. The graphical and numerical results indicated that white race eats out at a higher frequency than the blacks and other races. The critical p-value confirmed there is a difference in the frequency of the white and black races eating out. Therefore we can conclude the alternative hypothosis is correct.
